@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabeza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color:   #f7e18a;
+    height: 10% ;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu-links {
+    display: flex;
+    gap: 25px;
+    border-radius: 20%;
+    font-size: 20px;
+    padding: 5%;
+    transition: 3s;
+    
+    
+    
+    
+}
+nav a{
+    color: rgb(255, 254, 254);
+    text-decoration:none;
+    font-size: 15px;
+    background-color: #fff383f6;
+    border-radius: 30px;
+    text-align: center;
+    
+    display: inline-block;
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-family: 'Montserrat', sans-serif; ;
+
+ }
+nav a:hover{
+    color: #fffcfc;
+    transform: scale(1.5);
+    background-color: #f1f372;
+    box-shadow:0 4px 4px rgb(255, 255, 255) ;
+ }
+
+.redondo {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    position: relative;
+    left: 0;
+    margin-left: 0;
+    display: block;
+    margin-left: 0;
+}
+
+.minip{
+        display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.logoclaro{
+left: 150px;
+}
+
+.principio{
+background-color: rgb(130, 243, 102);
+padding: 90px 90px;
+justify-content: end;
+}
+
+.linea-color {
+ border: none;
+  height: 20px;
+  background: #102403; /* Cambia por el color que quieras */
+  margin: 0px 0;
+}
+
+.linea-color2{
+ border: none;
+  height: 10px;
+  background: #102403; /* Cambia por el color que quieras */
+  margin: 0px 0;
+}
+.letra-final {
+    color: #102403;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 36px;
+}
+.chimera{
+    text-align: center;
+}
+
+.lado{
+    width: 250px;
+    height: 250px;
+    border: 10px;
+}
+
+.imagenes_medio{
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 7px 5px 8px rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+    transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+.datos{
+    color: #000000; text-align: center; padding: 10px; font-weight: bold; font-size: 36px;
+}
+
+h4,h5,h6{
+    color: rgb(255, 255, 255);
+    text-shadow: 1.5px 1px 8px rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+
+.centrado-img{
+    width: 500px;
+    height: 350px;
+}
+
+.centrado{ 
+display: flex;
+justify-content: space-around;
+animation: infinite;
+}
+
+.final{
+    text-align: left;
+    background-color:   rgba(235, 227, 128, 0.7); /* Verde con opacidad */
+    font-weight: bold;
+    font-size: 10px;
+    padding: 10px;
+  
+}
+
+.mafioso{
+  width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.tiposbasuras{
+    margin: 0 10px;
+    color: #e7a731;  
+    display: flex;
+   justify-content: space-around;
+}
+
+.videomafioso{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 7px 5px 8px rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: alternate;
+} 
+
+h1{
+    color: #e7a731;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h3{
+     text-align: center;
+    padding: 10px;
+}
+
+.project{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #000000;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+body {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.quienessomos {
+    text-align: center;
+    font-size: 60px;
+    color: black;
+}
+
+.caja-redondeada {
+  background: #fff383;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 20px auto 30px auto; /* margen inferior para separar las cajas */
+  width: 60%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  font-size: 22px;
+}
+
+.Giant {
+    
+font-size: 100px;
+
+}
+.art {
+text-align: left; 
+}
